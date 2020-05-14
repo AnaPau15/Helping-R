@@ -1,0 +1,22 @@
+#####  Variables - almacenan un objeto en R // el símnbolo <- se usa como un '='
+x <- 1   ### quiere decir que la variable X está conformada por un objeto, el núm 1
+y <- 2
+
+#### RUN o Ctrl + enter = correr### 
+
+class(x) ## Se obtiene la clase de la varible
+[1] "numeric"
+
+###OPERADORES LÓGICOS
+2 == 3      # == es igual a
+2 != 2      # != No es igual a
+2 < 3 
+3 <= 4
+6 %% 4
+5 ^ 3
+
+### TIPOS DE OBJETOS ###
+## Vector
+vector <- c(1,2,3,4,5,6)   ##contiene datos del mismo tipo (homogéneo), unidimensional
+
+##Factor
